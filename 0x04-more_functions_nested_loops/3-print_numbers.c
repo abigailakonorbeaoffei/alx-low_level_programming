@@ -5,14 +5,16 @@
  *
  * Return: 0-9 followed by newline
  */
-void print_numbers(void) 
+void print_numbers(int i) 
 {
 	int i;
 
 	for (i = 0; i <= 9; i++)
-		_putchar(i);
-	_putchar('\n');
+		
+	{	_putchar("%d", i);
 
+		i++;
+		_putchar('\n');
+	}
 	return (0);
 }
-
