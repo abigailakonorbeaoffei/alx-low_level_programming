@@ -1,1 +1,1 @@
-This project details more nested loops in C
+0x04. C - More functions, more nested loops
