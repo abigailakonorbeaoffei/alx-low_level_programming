@@ -1,0 +1,1 @@
+This project briefly explains singly linked lists
