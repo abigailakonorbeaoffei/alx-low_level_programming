@@ -7,12 +7,13 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
-	int fd_r, fd_w, r, a, b;
-	char buf[BUFSIZ];
+	int fd_r, fd_w, r, a, b; /*integer variables*/
+	char buf[BUFSIZ];		/*char variable*/
 
-	if (argc != 3)
+	if (argc != 3) /*Conditional*/
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
